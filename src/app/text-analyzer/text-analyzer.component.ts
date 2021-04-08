@@ -39,7 +39,11 @@ export class TextAnalyzerComponent implements OnInit {
 
   // Handles the toggle state change
   public stateChanged() {
-    this.checkStatus();
+    if (this.stateCheck) {
+      this.currentState = 'online';
+    } else {
+      this.currentState = 'offline';
+    }
   }
 
   // Method to prevent user to enter whitespaces at the first position in the text input.
