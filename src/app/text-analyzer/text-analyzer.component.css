@@ -1,0 +1,21 @@
+.analyze-button {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.td-text-col {
+    width: 50%;
+}
+
+table {
+    border: 5px solid #dee2e6
+}
+
+.top-div {
+    padding-top: 50px;
+}
+
+.div-toggle-button {
+    text-align: right;
+    padding-right: 50px;
+}
